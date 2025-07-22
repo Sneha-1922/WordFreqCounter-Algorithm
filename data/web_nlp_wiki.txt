@@ -1,0 +1,9 @@
+---Web Scraped Dataset---
+
+import requests
+from bs4 import BeautifulSoup
+
+url = "https://en.wikipedia.org/wiki/Natural_language_processing"
+response = requests.get(url)
+soup = BeautifulSoup(response.content, "html.parser")
+text = soup.get_text()
