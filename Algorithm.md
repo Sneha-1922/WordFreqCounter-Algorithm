@@ -1,7 +1,7 @@
 # WordFreqCounter-Algorithm
 Creating the Word Frequency Counter Algorithm with dataset
  ### Step 1: Start
-The program begins its execution. This marks the initialization point of the entire process. At this stage, you might prepare any required setup, such as importing libraries (os, string, re, etc.), and defining the scope of the program — for example, processing a single file, multiple files, or user input.
+The program begins its execution. This marks the initialization point of the entire process. At this stage, you might prepare any required setup, such as importing libraries (os, string, re, etc.), and defining the scope of the program  for example, processing a single file, multiple files, or user input.
 
 ### Step 2: Input the Text
 The next step involves accepting the text data you want to analyze. This input can come from a variety of sources: a plain text file (.txt), a document from a website, or even direct user input through a form or terminal. In a typical Python program, the input is often read from a file using the open() function or a similar file-handling approach. It's essential that the program handles errors gracefully in this stage, such as checking if the file exists or if it is readable.
